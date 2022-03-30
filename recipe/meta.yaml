@@ -1,5 +1,5 @@
 {% set name = "poetry-kernel" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/poetry-kernel-{{ version }}.tar.gz
-  sha256: fb591eaa9a8e541ed43f2f7463f13a40dd00abd83b05840aa960a16e20dc0d37
+  sha256: 2e0ed6a8d521efa50ae913d9f5dfc0bb08fa27b466c9d31f8bb63c852d8d86e4
 
 build:
   number: 0
