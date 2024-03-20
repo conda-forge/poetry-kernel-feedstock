@@ -11,7 +11,7 @@ source:
   sha256: a586631fca31185dbb5f4b8e88a8a30b00bf857b6bc5935b277cfe4f48e90f27
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
   run:
     - colorama ~=0.4.4
-    - jupyter_client ~=7.0.1
+    - jupyter_client >=7.0.1
     - python >=3.7
 
 test:
