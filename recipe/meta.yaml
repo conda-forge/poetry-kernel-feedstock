@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - colorama ~=0.4.4
     - jupyter_client >=7.0.1
